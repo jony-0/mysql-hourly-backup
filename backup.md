@@ -41,7 +41,7 @@ aws mv command will move the database from your server to your amazon s3 bucket,
 Although above script will but it will also throw a warning message that will warn you about using
 mysqldump passwords on command line interface as this is not a secure method.
 
-Since you are using Ubuntu, all you need to do is just to add a file in your home directory and it will disable the mysqldump password prompting. This is done by creating the file .my.cnf (permissions need to be 600). Add this to the .my.cnf file
+Since you are using Ubuntu, all you need to do is just to add a file in your home directory and it will disable the mysqldump password prompting. This is done by creating the file .my.cnf (permissions need to be 600).
 
 ```bash
 touch .my.cnf
