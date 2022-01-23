@@ -6,7 +6,7 @@ sudo apt-get install awscli
 
 ## configure aws cli
 
-```
+```bash
 $ aws configure
 $ AWS Access Key ID [****************XS57] :
 $ AWS Secret Access Key [****************F1dv] :
@@ -15,7 +15,7 @@ $ Default output format [None]:
 ```
 ## Version 1 of the script
 
-```
+```bash
 # Create variables that will be used later
 backedup_db_name=`date +"%Y-%m-%d-%Ho'clock"-db-name.gz`
 mysql_user='db_user' 
