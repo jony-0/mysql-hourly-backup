@@ -7,9 +7,13 @@ sudo apt-get install awscli
 ## configure aws cli
 
 $ aws configure
+
 $ AWS Access Key ID [****************XS57] :
+
 $ AWS Secret Access Key [****************F1dv] :
+
 $ Default region name [ca-central-1]: ca-central-1
+
 $ Default output format [None]:
 
 
