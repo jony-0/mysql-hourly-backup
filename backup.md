@@ -17,7 +17,7 @@ $ Default output format [None]:
 
 ```bash
 # Create variables that will be used later
-backedup_db_name=`date +"%Y-%m-%d-%H"-db-name`
+backedup_db_name=`date +"%Y-%m-%d-%H"-db-name.gz`
 mysql_user='db_user' 
 mysql_password='password'
 database_name='db_name'
@@ -76,7 +76,7 @@ pwd
 # new script will be
 
 ```bash
-backedup_db_name=`date +"%Y-%m-%d-%H"-db-name`
+backedup_db_name=`date +"%Y-%m-%d-%H"-db-name.gz`
 database_name='db_name'
 s3_bucket_name='bucket_name'
 my_cnf_path='path_to/.my.cnf'
