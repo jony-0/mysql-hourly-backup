@@ -17,7 +17,7 @@ $ Default output format [None]:
 
 ```bash
 # Create variables that will be used later
-backedup_db_name=`date +"%Y-%m-%d-%Ho'clock"-db-name.gz`
+backedup_db_name=`date +"%Y-%m-%d-%Ho'clock"-db-name`
 mysql_user='db_user' 
 mysql_password='password'
 database_name='db_name'
@@ -54,6 +54,12 @@ copy paste this in the file
 user=mysqluser
 password=secret
 ```
+in case of ISPmanager
+```bash
+[client]
+user=mysqluser
+password=secret
+```
 
 again use mysql root user if you do not want see that previlliage error related to tablespaces.
 
@@ -70,7 +76,7 @@ pwd
 # new script will be
 
 ```bash
-backedup_db_name=`date +"%Y-%m-%d-%Ho'clock"-db-name.gz`
+backedup_db_name=`date +"%Y-%m-%d-%Ho'clock"-db-name`
 database_name='db_name'
 s3_bucket_name='bucket_name'
 my_cnf_path='path_to/.my.cnf'
