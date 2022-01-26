@@ -38,7 +38,7 @@ aws s3 mv $backedup_db_name s3://$s3_bucket_name/mysql-backups/
 ```
 aws mv command will move the database from your server to your amazon s3 bucket, which means it also delets the copy from your server.
 
-Although above script will but it will also throw a warning message that will warn you about using
+Although above script will work, but it will also throw a warning message that will warn you about using
 mysqldump passwords on command line interface as this is not a secure method.
 
 Since you are using Ubuntu, all you need to do is just to add a file in your home directory and it will disable the mysqldump password prompting. This is done by creating the file .my.cnf (permissions need to be 600).
