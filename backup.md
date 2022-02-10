@@ -13,6 +13,8 @@ $ AWS Secret Access Key [****************F1dv] :
 $ Default region name [ca-central-1]: ca-central-1
 $ Default output format [None]:
 ```
+make sure you use proper aws access key, secret and region you have your bucket in.
+
 ## Version 1 of the script
 
 ```bash
